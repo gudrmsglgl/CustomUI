@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- default    -->
+    <style name="AppText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorSecondary">#999999</item>
+        <item name="android:lineSpacingExtra">3sp</item>
+        <item name="android:textColor">@drawable/text_color_default</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+    <style name="AppText.H2" parent="AppText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/app_color_f1</item>
+    </style>
+
+    <!-- Toolbar title text -->
+    <style name="AppToolbar.Light.Title" parent="AppText.H2"/>
+
+
+</resources>
